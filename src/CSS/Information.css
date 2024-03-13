@@ -1,0 +1,268 @@
+.mainInfoContainer{
+  overflow: hidden;
+}
+
+.skillRow {
+  display: flex;
+  margin-top: 2vw;
+  padding-bottom: 2vw;
+  justify-content: space-around;
+  border-bottom: 0.1vw solid black;
+  margin-bottom: 2vw;
+}
+
+.skillRow img {
+  width: 10vw;
+}
+
+
+.skillRow img:hover {
+  filter: drop-shadow(0px 0.01vw 0.3vw rgb(104, 104, 104));
+}
+
+
+
+.quote{
+    color: grey;
+}
+
+
+.educationContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 2vw;
+    border-bottom: 0.1vw solid black;
+    margin-bottom: 2vw;
+}
+
+.educationContainer .card{
+    width: 25vw;
+  box-shadow: 0px 0.01vw 0.3vw rgb(104, 104, 104);
+
+}
+
+.educationContainer .card:hover{
+  box-shadow: 0px 0.01vw 0.3vw rgb(0, 0, 0);
+
+}
+.educationContainer .card img{
+    width: 25vw;
+    height: 25vw;
+}
+
+.educationContainer .card .card-title{
+    font-size: 1.5vw;
+}
+
+
+
+
+
+.workContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 2vw;
+  border-bottom: 0.1vw solid black;
+  margin-bottom: 2vw;
+}
+
+.workContainer .card{
+  box-shadow: 0px 0.01vw 0.3vw rgb(104, 104, 104);
+}
+
+
+.workContainer .card:hover{
+  box-shadow: 0px 0.01vw 0.3vw rgb(0, 0, 0);
+}
+
+.projectsContainer{
+  padding-bottom: 2vw;
+  border-bottom: 0.1vw solid black;
+  margin-bottom: 2vw;
+}
+
+.projectsContainer .card{
+  box-shadow: 0px 0.01vw 0.3vw rgb(104, 104, 104);
+}
+
+.projectsContainer .card:hover{
+  box-shadow: 0px 0.01vw 0.3vw rgb(0, 0, 0);
+}
+
+
+.contactContainer{
+  display: flex;
+  margin-bottom: 10vw;
+  justify-content: center;
+}
+
+.contactContainer .card{
+  border: none;
+  width: 50vw;
+}
+
+
+
+.contactContainer .submitImage{
+  height: 10vw;
+}
+
+.sendingMail img{
+  width: 10vw;
+  
+}
+
+
+
+@media screen and (max-width:700px) {
+
+  /* skills  */
+  .skillRow {
+    margin-top: 2vw;
+    padding-bottom: 2vw;
+    justify-content: space-around;
+    border-bottom: 0.3vw solid black;
+    margin-bottom: 2vw;
+  }
+  
+  .skillRow img {
+    width: 20vw;
+    margin-bottom: 2vw;
+  }
+ 
+  .heading{
+    font-size: 5vw;
+  }
+
+  .quote{
+    font-size: 3vw;
+  }
+  
+  .skillRow img:hover {
+    filter: drop-shadow(0px 0.01vw 0.3vw rgb(104, 104, 104));
+  }
+  
+
+  /* education  */
+  .educationContainer{
+
+    justify-content: space-around;
+    padding-bottom: 2vw;
+    border-bottom: 0.3vw solid black;
+    margin-bottom: 2vw;
+}
+
+.educationContainer .card{
+  width: 95vw;
+  box-shadow: 0px 0.01vw 0.3vw rgb(104, 104, 104);
+  margin-bottom: 2vw;
+}
+
+
+.educationContainer .card:hover{
+  box-shadow: 0px 0.1vw 1vw rgb(0, 0, 0);
+
+}
+.educationContainer .card img{
+    width: 90vw;
+    height: 90vw;
+}
+
+.educationContainer .card .card-title{
+    font-size: 4vw;
+}
+
+.educationContainer .card .card-text{
+  font-size: 3.5vw;
+}
+
+
+/* work  */
+.workContainer{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  padding-bottom: 2vw;
+  border-bottom: 0.3vw solid black;
+  margin-bottom: 2vw;
+}
+
+.workContainer .card{
+  width: 46vw;
+  box-shadow: 0px 0.01vw 0.3vw rgb(104, 104, 104);
+}
+
+
+.workContainer .card:hover{
+  box-shadow: 0px 0.1vw 1vw rgb(0, 0, 0);
+}
+  
+.workContainer .card-title{
+  font-size: 4vw;
+}
+.workContainer .card-text{
+  font-size: 3vw;
+}
+
+/* project  */
+
+.projectsContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 2vw;
+  border-bottom: 0.3vw solid black;
+  margin-bottom: 2vw;
+}
+
+.projectsContainer .card{
+  width: 95vw;
+  gap: 2vw;
+  box-shadow: 0px 0.01vw 0.3vw rgb(104, 104, 104);
+}
+
+.projectsContainer .card:hover{
+  box-shadow: 0px 0.01vw 0.3vw rgb(0, 0, 0);
+}
+
+
+.projectsContainer .card-title{
+  font-size: 5vw;
+
+}
+.projectsContainer .card-text{
+  font-size: 3.5vw;
+  
+}
+
+.projectsContainer .card-subtitle{
+  font-size: 3.5vw;
+  
+}
+
+/* contact  */
+
+.contactContainer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15vh;
+}
+
+.contactContainer .card{
+  border: none;
+  width: 95vw;
+}
+
+.contactContainer .submitImage{
+  width: 30vw;
+  height: 30vw;
+}
+
+.sendingMail img{
+  width: 20vw;
+}
+
+
+}

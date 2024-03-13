@@ -1,0 +1,54 @@
+.navbar{
+    padding: 0%;
+    box-shadow: 0 0 0.5vw 0px black;
+    height: 10vh;
+    background-color: white;
+
+}
+
+.navbar-brand {
+    font-size: 2vw;
+    font-weight: 500;
+    font-family: "Fredoka", sans-serif;
+}
+
+.social-media img{
+    width: 2vw;
+    margin: 0 1vw 0 1vw;
+    position: relative;
+}
+
+
+
+.social-media img:hover{
+    cursor: pointer;
+    
+}
+
+
+@media screen and (max-width:700px) {
+    .navbar-brand {
+        font-size: 6vw;
+        font-weight: 500;
+        font-family: "Fredoka", sans-serif;
+        
+    }
+
+
+    .navbar{
+        height: 6vh;
+        padding: 0%;
+        width: 100%;
+        box-shadow: 0 0 0.5vw 0px black;
+        background-color: white;
+    
+    }
+
+    
+    
+    .social-media img{
+        display: none;
+    }
+    
+    
+}
